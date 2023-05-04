@@ -1,0 +1,164 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.container {
+  position: relative;
+}
+.lg12 {
+  grid-column: span 12 / span 12;
+}
+.lg11 {
+  grid-column: span 11 / span 11;
+}
+.lg10 {
+  grid-column: span 10 / span 10;
+}
+.lg9 {
+  grid-column: span 9 / span 9;
+}
+.lg8 {
+  grid-column: span 8 / span 8;
+}
+.lg7 {
+  grid-column: span 7 / span 7;
+}
+.lg6 {
+  grid-column: span 6 / span 6;
+}
+.lg5 {
+  grid-column: span 5 / span 5;
+}
+.lg4 {
+  grid-column: span 4 / span 4;
+}
+.lg3 {
+  grid-column: span 3 / span 3;
+}
+.lg2 {
+  grid-column: span 2 / span 2;
+}
+.lg1 {
+  grid-column: span 1 / span 1;
+}
+
+.md12 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 12 / span 12;
+  }
+}
+.md11 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 11 / span 11;
+  }
+}
+.md10 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 10 / span 10;
+  }
+}
+.md9 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 9 / span 9;
+  }
+}
+.md8 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 8 / span 8;
+  }
+}
+.md7 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 7 / span 7;
+  }
+}
+.md6 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 6 / span 6;
+  }
+}
+.md5 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 5 / span 5;
+  }
+}
+.md4 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 4 / span 4;
+  }
+}
+.md3 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 3 / span 3;
+  }
+}
+.md2 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 2 / span 2;
+  }
+}
+.md1 {
+  @media (max-width: $breakpoint-lg) {
+    grid-column: span 1 / span 1;
+  }
+}
+
+.sm12 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 12 / span 12;
+  }
+}
+.sm11 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 11 / span 11;
+  }
+}
+.sm10 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 10 / span 10;
+  }
+}
+.sm9 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 9 / span 9;
+  }
+}
+.sm8 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 8 / span 8;
+  }
+}
+.sm7 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 7 / span 7;
+  }
+}
+.sm6 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 6 / span 6;
+  }
+}
+.sm5 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 5 / span 5;
+  }
+}
+.sm4 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 4 / span 4;
+  }
+}
+.sm3 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 3 / span 3;
+  }
+}
+.sm2 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 2 / span 2;
+  }
+}
+.sm1 {
+  @media (max-width: $breakpoint-sm) {
+    grid-column: span 1 / span 1;
+  }
+}

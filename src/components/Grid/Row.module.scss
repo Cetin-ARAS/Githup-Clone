@@ -1,0 +1,168 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.container {
+  display: grid;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-auto-flow: row;
+}
+
+.lg12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+.lg11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+.lg10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+.lg9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+.lg8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+.lg7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+.lg6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.lg5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.lg4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.lg3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.lg2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.lg1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.md12 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+.md11 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(11, 1fr);
+  }
+}
+.md10 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(10, 1fr);
+  }
+}
+.md9 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+.md8 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+.md7 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+.md6 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+.md5 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.md4 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.md3 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.md2 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.md1 {
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.sm12 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+.sm11 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(11, 1fr);
+  }
+}
+.sm10 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(10, 1fr);
+  }
+}
+.sm9 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+.sm8 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+.sm7 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+.sm6 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+.sm5 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.sm4 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.sm3 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.sm2 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.sm1 {
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

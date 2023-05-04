@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.container {
+  background-color: $bg-color-2;
+  height: 6rem;
+  padding: 1.6rem 0;
+}
+
+.innerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightPart {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  button {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+
+.avatar {
+  img {
+    border-radius: 50%;
+  }
+}

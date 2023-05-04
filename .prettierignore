@@ -1,0 +1,7 @@
+# dependencies
+node_modules
+# next.js
+/.next/
+# service-worker
+public/service-worker.js
+public/workbox-*.js

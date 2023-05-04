@@ -1,0 +1,112 @@
+@import '../../styles/variables.scss';
+
+.formCheckInput {
+  position: relative;
+  margin-top: 2px;
+  display: block;
+}
+
+.formCheckInputMask {
+  position: relative;
+  background: $bg-color-2;
+  border: 1px solid $stroke-color;
+  display: block;
+}
+
+.formCheck {
+  display: flex;
+  margin-bottom: 1.6rem !important;
+
+  input[type='checkbox'],
+  input[type='radio'] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  label {
+    margin-left: 0.8rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  &.default {
+    .formCheckInput {
+      margin-top: 2px;
+    }
+
+    .formCheckInputMask {
+      width: 12px;
+      height: 12px;
+      border-radius: 2px;
+    }
+  }
+
+  &.small {
+    .formCheckInputMask {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+    }
+  }
+
+  &.medium {
+    .formCheckInputMask {
+      width: 18px;
+      height: 18px;
+      border-radius: 4px;
+    }
+  }
+
+  &.large {
+    align-items: center;
+
+    .formCheckInputMask {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+    }
+  }
+
+  &.checked {
+    .formCheckInputMask {
+      background-color: $primary-color;
+      border-color: $primary-color;
+      background-image: url("data:image/svg+xml,%3Csvg width='16' height='11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m.827 4.266-.19.18.19.182 4.525 4.319 1.293 1.234.172.165.173-.165 1.292-1.233v-.001l6.89-6.532.19-.18-.19-.182L13.88.819l-.172-.164-.172.164-6.718 6.368-4.353-4.155-.172-.165-.173.165L.827 4.266Z' fill='%23fff' stroke='%23fff' stroke-width='.5'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &.default {
+      .formCheckInputMask {
+        background-size: 8px;
+      }
+    }
+
+    &.small {
+      .formCheckInputMask {
+        background-size: 6px;
+      }
+    }
+
+    &.medium {
+      .formCheckInputMask {
+        background-size: 12px;
+      }
+    }
+
+    &.large {
+      .formCheckInputMask {
+        background-size: 16px;
+      }
+    }
+  }
+}
+
+.checkboxHasError {
+  .formCheckInputMask {
+    border-color: $error-color;
+  }
+}

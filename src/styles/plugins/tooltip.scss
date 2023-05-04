@@ -1,0 +1,9 @@
+@import '../variables.scss';
+
+.react-tooltip {
+  background-color: $bg-color-4 !important;
+  z-index: 3 !important;
+  font-size: 1.2rem !important;
+  opacity: 1 !important;
+  max-width: 28.5rem;
+}
