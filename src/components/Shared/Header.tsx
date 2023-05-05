@@ -17,6 +17,7 @@ export default function Header() {
               </svg>
             }
           />
+           <svg className={styles.circle} width="10" height="10" > </svg>          
           <Button
             icon={
               <svg fill="#fff" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" className="octicon octicon-plus">
@@ -24,7 +25,10 @@ export default function Header() {
               </svg>
             }
           />
-          <Button className={styles.avatar} icon={<AppImage src="https://avatars.githubusercontent.com/u/79022605?s=40&v=4" alt="avatar" width={24} height={24} />} />
+          
+          <Button className={styles.avatar} icon={<AppImage src="	https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />} />
+
+          <svg className={styles.circle2} width="12" height="12" > </svg>
         </div>
       </Container>
     </header>
