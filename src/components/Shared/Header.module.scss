@@ -22,23 +22,20 @@
   }
 
 }
+.btn {
+  position: relative;
+}
 
 .circle {
-  position:sticky;
-  right: 14rem;
-  bottom: 85.5rem;
-  z-index: 2;
+  position:absolute;
+  top: 0.1rem;
+  right:0.5rem;
+  width: 0.8rem;
+  height: 0.8rem;
   background-image: linear-gradient(#54a3ff, #006eed);
   border-radius: 50%;
  }
- .circle2 {
-  position:sticky;
-  right: 5rem;
-  bottom: 85.5rem;
-  z-index: 2;
-  background-image: linear-gradient(#54a3ff, #006eed);
-  border-radius: 50%;
- }
+
 
 
 .avatar {
@@ -46,3 +43,24 @@
     border-radius: 50%;
   }
 }
+
+.left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.searchContainer {
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+   
+}
+.searchContainer:hover {
+  background-color: black;
+}
+
+.nav{
+  display: flex;
+  gap: 1rem;
+}
+
