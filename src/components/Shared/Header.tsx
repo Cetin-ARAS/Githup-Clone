@@ -25,17 +25,16 @@ export default function Header() {
             <div className={styles.searchContainer}>
               <input type="text" placeholder="Search or jump to" />
             </div>
-            <nav className={styles.middle} >
-            <ul className={styles.nav}>
-              <li>Pulls</li>
-              <li>Issues</li>
-              <li>Codespace</li>
-              <li>Marketplace</li>
-              <li>Explore</li>
-            </ul>
-          </nav>
+            <nav className={styles.middle}>
+              <ul className={styles.nav}>
+                <li>Pulls</li>
+                <li>Issues</li>
+                <li>Codespace</li>
+                <li>Marketplace</li>
+                <li>Explore</li>
+              </ul>
+            </nav>
           </div>
-          
         </div>
         <div className={styles.rightPart}>
           <Button
@@ -58,11 +57,7 @@ export default function Header() {
             }
           />
 
-          <Button className={styles.avatar} icon={<AppImage src="	https://avatars.githubusercontent.com/u/101902046?s=40&v=4"  alt="avatar" width={24} height={24} />} />
-
-          <svg className={styles.circle2} width="12" height="12">
-            {' '}
-          </svg>
+          <Button className={styles.avatar} icon={<AppImage src="	https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />} />
         </div>
       </Container>
     </header>
