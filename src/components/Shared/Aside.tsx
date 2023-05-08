@@ -35,7 +35,11 @@ const Aside = () => {
         </div>
         <div>
         <h5 className={styles.recent}>Your Teams</h5>
-        <input className={styles.searchContainer3} type="text" placeholder="Find a team.." />
+        <input className={styles.searchContainer3} type="text" placeholder="Find a team..." />
+        </div>
+        <div className={styles.addition}>
+        <img className={styles.avatar} src="https://avatars.githubusercontent.com/t/6398987?s=16&amp;v=4"  width="16" height="16" alt="FS-012-TR-Students"/>
+        <p>clarusway/fs-012-tr-students</p>
         </div>
     </div>
       
