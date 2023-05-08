@@ -1,7 +1,7 @@
 
 .aside{
     display: flex;
-    overflow-x: scroll;
+   
 }
 // .aside::-webkit-scrollbar {
 //     width: 1rem;
@@ -22,7 +22,7 @@
     height: calc(100vh - 6rem);
     width: 30rem;
     background-color:  rgb(13,17,23);
-    overflow-y: scroll; 
+    overflow: scroll;
 }
 
  
@@ -30,7 +30,7 @@
     height: calc(100vh - 6rem);
     width: calc(100vw - 20rem);
     background-color: grey;
-    overflow-y: scroll;
+
 }
 
 .header {
@@ -112,4 +112,12 @@ ul.avatarList li:hover {
     margin-top: 2rem;
     width: 2rem;
     height: 2rem;
+}
+.recent{
+    margin:2rem 0rem 0rem 2rem;
+}
+.input{
+    width: 24rem;
+    height: 5rem;
+    overflow: visible;
 }
