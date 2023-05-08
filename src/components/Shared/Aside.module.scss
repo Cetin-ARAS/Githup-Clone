@@ -1,0 +1,75 @@
+
+.aside{
+    display: flex;
+    overflow-x: scroll;
+}
+// .aside::-webkit-scrollbar {
+//     width: 1rem;
+// }
+
+// .aside::-webkit-scrollbar-track {
+//     background-color: blue;
+// }
+
+// .aside::-webkit-scrollbar-thumb {
+//     background-color: yellow;
+//     border-radius: 10px;
+// }
+
+
+
+.leftAside {
+    height: calc(100vh - 6rem);
+    width: 30rem;
+    background-color:  rgb(13,17,23);
+    overflow-y: scroll; 
+}
+
+ 
+.rightAside {
+    height: calc(100vh - 6rem);
+    width: calc(100vw - 20rem);
+    background-color: grey;
+    overflow-y: scroll;
+}
+
+.header {
+    display: flex;
+    gap: 1rem;
+    width: 30rem;
+    height: 5rem;
+    background-color: rgb(13,17,23);
+    align-items: center;
+    padding-left: 2rem;
+    border: 1px solid end white;
+}
+.avatar {
+    border-radius: 50%;
+}
+
+.subHeader {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: rgb(13,17,23);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.newBtn {
+    background-color:green ;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+
+}
+
+:hover.newBtn {
+    background-color: greenyellow ;
+    cursor: pointer;
+}
+.searchContainer{
+    background-color:black ;
+    margin: 1rem;
+}

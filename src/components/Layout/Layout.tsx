@@ -3,6 +3,8 @@ import { Toaster } from 'react-hot-toast';
 import { Router, useRouter } from 'next/router';
 import NProgress from '../NProgress/NProgress';
 import Header from '../Shared/Header';
+import Aside from '../Shared/Aside';
+
 type Props = {
   children: any;
   header: { web: boolean; mobile: boolean };
@@ -52,7 +54,9 @@ export default function Layout({ header, footer, children }: Props) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main>{children}
+      <Aside />
+      </main>
       {/*  absolute elements */}
       <NProgress open={nprogress} />
       <Toaster position="top-right" />
