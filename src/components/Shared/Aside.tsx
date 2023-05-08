@@ -17,7 +17,20 @@ const Aside = () => {
     </div>
     <div className={styles.searchContainer}>
               <input type="text" placeholder="Find a repository.." />
-            </div>
+    </div>
+    <div>
+        <ul className={styles.avatarList}>
+            <li> <img className={styles.subAvatar} src=" https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />Cetin-ARAS/Js.Exercises</li>
+            <li> <img className={styles.subAvatar} src=" https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />Cetin-ARAS/react-projects</li>
+            <li> <img className={styles.subAvatar} src=" https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />Cetin-ARAS/python-exercises</li>
+            <li> <img className={styles.subAvatar} src=" https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />Cetin-ARAS/blog-app</li>
+            <li> <img className={styles.subAvatar} src=" https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />Cetin-ARAS/django-serializers</li>
+            <li> <img className={styles.subAvatar} src=" https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />Cetin-ARAS/movie-app</li>            
+            <li> <img className={styles.subAvatar} src=" https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} />Cetin-ARAS/myreact2</li>    
+            <p className={styles.showMore}>Show more...</p>        
+        </ul>
+       
+    </div>
       
         </aside>
         <aside className={styles.rightAside}>

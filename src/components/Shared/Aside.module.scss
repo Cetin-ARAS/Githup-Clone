@@ -47,6 +47,15 @@
     border-radius: 50%;
 }
 
+.pipe{
+    margin-left: auto;
+    margin-right: auto;
+    width: 23rem;
+    border: none;
+    border-bottom: 0.5px solid darkgray;
+
+}
+
 .subHeader {
     display: flex;
     gap: 5rem;
@@ -71,5 +80,36 @@
 }
 .searchContainer{
     background-color:black ;
-    margin: 1rem;
+    margin-left: 2rem;
+    padding: 1rem 3rem 3rem 2rem;
+    width: 23rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+}
+
+.avatarList {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 3rem;
+
+}
+ul.avatarList li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.showMore{
+   padding-top: 2rem; 
+   color: grey;
+}
+:hover .showMore{
+    cursor: pointer;
+    color: blue;
+}
+.subAvatar{
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    width: 2rem;
+    height: 2rem;
 }
