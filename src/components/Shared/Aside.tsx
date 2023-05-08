@@ -3,8 +3,8 @@ import styles from "./Aside.module.scss"
 
 const Aside = () => {
   return (
-    <>
-    <div className={styles.aside} >
+   
+    <main className={styles.aside} >
         <aside className={styles.leftAside}>
         <div className={styles.header}>
             <img className={styles.avatar} src=" https://avatars.githubusercontent.com/u/101902046?s=40&v=4" alt="avatar" width={24} height={24} /> 
@@ -31,11 +31,11 @@ const Aside = () => {
         </ul>
     <div>
         <h5 className={styles.recent}>Recent activity</h5>
-        <input className={styles.input} type="text" placeholder='When you take actions across GitHub, we’ll provide links to that activity here.'/>
+        <input className={styles.searchContainer2} type="text" placeholder='When you take actions across GitHub, we’ll provide links to that activity here.'/>
         </div>
         <div>
         <h5 className={styles.recent}>Your Teams</h5>
-        <input type="text" placeholder="Find a team.." />
+        <input className={styles.searchContainer3} type="text" placeholder="Find a team.." />
         </div>
     </div>
       
@@ -43,8 +43,7 @@ const Aside = () => {
         <aside className={styles.rightAside}>
       
         </aside>
-    </div>
-    </>
+    </main>
   )
 }
 

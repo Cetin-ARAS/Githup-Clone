@@ -22,7 +22,8 @@
     height: calc(100vh - 6rem);
     width: 30rem;
     background-color:  rgb(13,17,23);
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
  
@@ -121,3 +122,23 @@ ul.avatarList li:hover {
     height: 5rem;
     overflow: visible;
 }
+
+.searchContainer2{
+margin-top: 1rem;
+background-color: rgb(13,17,23) ;
+border: 1px dotted grey;
+width: 23rem;
+height: 5rem;
+border-radius: 0.7rem;
+margin: 1rem 0rem 0rem 2rem;
+padding: 1rem;
+overflow: visible;
+}
+.searchContainer3{
+    background-color:black ;
+    margin: 1rem 0rem 0rem 2rem;
+    padding: 2rem;
+    width: 23rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    }
