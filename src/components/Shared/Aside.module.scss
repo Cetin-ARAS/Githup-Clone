@@ -99,12 +99,14 @@ ul.avatarList li:hover {
   background-color: rgb(13, 17, 23);
   border: 1px dotted grey;
   width: 23rem;
-  height: 5rem;
+  height: 8rem;
   border-radius: 0.7rem;
   margin: 1rem 0rem 0rem 2rem;
   padding: 1rem;
-  overflow: visible;
+  color: grey;
+  font-size: 1.5rem;
 }
+
 .searchContainer3 {
   background-color: black;
   margin: 1rem 0rem 0rem 2rem;

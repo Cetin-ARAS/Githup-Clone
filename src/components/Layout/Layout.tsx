@@ -55,7 +55,7 @@ export default function Layout({ header, footer, children }: Props) {
   return (
     <>
       <Header />
-      {/* <Row col={{ lg: 12, md: 12, sm: 12 }}>
+      {/* <Row col={{ lg: 12, md: 12, sm: 12 }}> !!! diğer yöntem !!!
         <Col span={{ lg: 4 }}>aside</Col>
         <Col span={{ lg: 8 }}>
           <main>{children}</main>

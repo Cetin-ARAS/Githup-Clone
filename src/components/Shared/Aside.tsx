@@ -57,7 +57,7 @@ const Aside = () => {
         </ul>
         <div>
           <h5 className={styles.recent}>Recent activity</h5>
-          <input className={styles.searchContainer2} type="text" placeholder="When you take actions across GitHub, we’ll provide links to that activity here." />
+          <p className={styles.searchContainer2}>When you take actions across GitHub, we will provide links to that activity here.</p>
         </div>
         <div>
           <h5 className={styles.recent}>Your Teams</h5>
