@@ -1,158 +1,128 @@
-
-.aside{
-    display: flex;
-   
-}
-// .aside::-webkit-scrollbar {
-//     width: 1rem;
-// }
-
-// .aside::-webkit-scrollbar-track {
-//     background-color: blue;
-// }
-
-// .aside::-webkit-scrollbar-thumb {
-//     background-color: yellow;
-//     border-radius: 10px;
-// }
-
-
-
-.leftAside {
-    height: calc(100vh - 6rem);
-    width: 30rem;
-    background-color:  rgb(13,17,23);
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
- 
-.rightAside {
-    height: calc(100vh - 6rem);
-    width: calc(100vw - 20rem);
-    background-color: grey;
-
+.container {
+  height: calc(100vh - 6rem);
+  width: 27.5rem;
+  background-color: red;
+  background-color: rgb(13, 17, 23);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .header {
-    display: flex;
-    gap: 1rem;
-    width: 30rem;
-    height: 5rem;
-    background-color: rgb(13,17,23);
-    align-items: center;
-    padding-left: 2rem;
-    border: 1px solid end white;
+  display: flex;
+  gap: 1rem;
+  width: 30rem;
+  height: 5rem;
+  background-color: rgb(13, 17, 23);
+  align-items: center;
+  padding-left: 2rem;
+  border: 1px solid end white;
 }
 .avatar {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-.pipe{
-    margin-left: auto;
-    margin-right: auto;
-    width: 23rem;
-    border: none;
-    border-bottom: 0.5px solid darkgray;
-
+.pipe {
+  margin-left: auto;
+  margin-right: auto;
+  width: 23rem;
+  border: none;
+  border-bottom: 0.5px solid darkgray;
 }
 
 .subHeader {
-    display: flex;
-    gap: 5rem;
-    justify-content: space-around;
-    padding: 1rem;
-    background-color: rgb(13,17,23);
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  gap: 5rem;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: rgb(13, 17, 23);
+  align-items: center;
+  justify-content: space-around;
 }
 
 .newBtn {
-    background-color:green ;
-    height: 3rem;
-    width: 5rem;
-    border-radius: 1rem;
-
+  background-color: green;
+  height: 3rem;
+  width: 5rem;
+  border-radius: 1rem;
 }
 
 :hover.newBtn {
-    background-color: greenyellow ;
-    cursor: pointer;
+  background-color: greenyellow;
+  cursor: pointer;
 }
-.searchContainer{
-    background-color:black ;
-    margin-left: 2rem;
-    padding: 1rem 3rem 3rem 2rem;
-    width: 23rem;
-    height: 3rem;
-    border-radius: 0.7rem;
+.searchContainer {
+  background-color: black;
+  margin-left: 2rem;
+  padding: 1rem 3rem 3rem 2rem;
+  width: 23rem;
+  height: 3rem;
+  border-radius: 0.7rem;
 }
 
 .avatarList {
-    display: block;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    padding-bottom: 3rem;
-
+  display: block;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 3rem;
 }
 ul.avatarList li:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-.showMore{
-   padding-top: 2rem; 
-   color: grey;
+  text-decoration: underline;
+  cursor: pointer;
 }
-.showMore :hover{
-    cursor: pointer;
-    color: blue;
-    transition: 3s;
-}  
-.subAvatar{
-    border-radius: 50%;
-    margin-right: 1rem;
-    margin-top: 2rem;
-    width: 2rem;
-    height: 2rem;
+.showMore {
+  padding-top: 2rem;
+  color: grey;
 }
-.recent{
-    margin:2rem 0rem 0rem 2rem;
+.showMore:hover {
+  cursor: pointer;
+  color: blue;
+  transition: 3s;
 }
-.input{
-    width: 24rem;
-    height: 5rem;
-    overflow: visible;
+.subAvatar {
+  border-radius: 50%;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+.recent {
+  margin: 2rem 0rem 0rem 2rem;
+}
+.input {
+  width: 24rem;
+  height: 5rem;
+  overflow: visible;
 }
 
-.searchContainer2{
-margin-top: 1rem;
-background-color: rgb(13,17,23) ;
-border: 1px dotted grey;
-width: 23rem;
-height: 5rem;
-border-radius: 0.7rem;
-margin: 1rem 0rem 0rem 2rem;
-padding: 1rem;
-overflow: visible;
+.searchContainer2 {
+  margin-top: 1rem;
+  background-color: rgb(13, 17, 23);
+  border: 1px dotted grey;
+  width: 23rem;
+  height: 5rem;
+  border-radius: 0.7rem;
+  margin: 1rem 0rem 0rem 2rem;
+  padding: 1rem;
+  overflow: visible;
 }
-.searchContainer3{
-    background-color:black ;
-    margin: 1rem 0rem 0rem 2rem;
-    padding: 2rem;
-    width: 23rem;
-    height: 3rem;
-    border-radius: 0.7rem;
-    }
+.searchContainer3 {
+  background-color: black;
+  margin: 1rem 0rem 0rem 2rem;
+  padding: 2rem;
+  width: 23rem;
+  height: 3rem;
+  border-radius: 0.7rem;
+}
 
 .addition {
-    display: flex;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    padding-bottom: 3rem;
-    gap: 1rem;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 3rem;
+  gap: 1rem;
 }
 
- .addition :hover{
-    text-decoration: underline;
-    cursor: pointer;
+.addition:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

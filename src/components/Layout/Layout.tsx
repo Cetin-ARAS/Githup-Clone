@@ -4,6 +4,7 @@ import { Router, useRouter } from 'next/router';
 import NProgress from '../NProgress/NProgress';
 import Header from '../Shared/Header';
 import Aside from '../Shared/Aside';
+import styles from './Layout.module.scss';
 
 type Props = {
   children: any;
@@ -54,9 +55,16 @@ export default function Layout({ header, footer, children }: Props) {
   return (
     <>
       <Header />
-      <main>{children}
-      <Aside />
-      </main>
+      {/* <Row col={{ lg: 12, md: 12, sm: 12 }}>
+        <Col span={{ lg: 4 }}>aside</Col>
+        <Col span={{ lg: 8 }}>
+          <main>{children}</main>
+        </Col>
+      </Row> */}
+      <div className={styles.container}>
+        <aside className={styles.aside}><Aside /></aside>
+        <main className={styles.main}>{children}</main>
+      </div>
       {/*  absolute elements */}
       <NProgress open={nprogress} />
       <Toaster position="top-right" />

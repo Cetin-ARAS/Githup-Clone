@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+.aside {
+  width: 27.5rem;
+  height: calc(100vh - 6rem);
+}
+
+.main {
+  flex: 1; //* soldaki alan harici tüm yer demek
+}
