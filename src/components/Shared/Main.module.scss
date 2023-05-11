@@ -1,0 +1,71 @@
+@import '../../styles/variables.scss';
+
+.container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.mainContainer {
+  height: 10rem;
+  background-color: red;
+}
+
+.footerContainer {
+  height: 10rem;
+  background-color: yellow;
+}
+
+.asideContainer {
+    display: flex;
+}
+.leftAside{
+    background-color: blue;
+    width: 70rem;
+    height: calc(100vh - 6rem);
+    padding: 0.5rem;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    gap:1rem;
+    background-color:$bg-color-2 ;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 1rem;
+    align-items: center;
+   
+}
+.headerTopLeft {
+    display: flex;
+    gap: 1rem;
+}
+.headerTopRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.box {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #30363D;
+    padding: 0.5rem;
+}
+.box:hover {
+    background-color: dar;
+    border: 1px solid grey;
+}
+
+.cross {
+    fill: grey;    
+}
+
+.rightAside {
+    background-color: black;
+    width: calc(100vw - 97.5rem);
+    height: calc(100vh - 6rem);
+    padding: 1rem;
+}
+

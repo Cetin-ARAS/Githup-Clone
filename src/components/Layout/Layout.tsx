@@ -5,6 +5,7 @@ import NProgress from '../NProgress/NProgress';
 import Header from '../Shared/Header';
 import Aside from '../Shared/Aside';
 import styles from './Layout.module.scss';
+import Main from '../Shared/Main';
 
 type Props = {
   children: any;
@@ -63,8 +64,11 @@ export default function Layout({ header, footer, children }: Props) {
       </Row> */}
       <div className={styles.container}>
         <aside className={styles.aside}><Aside /></aside>
-        <main className={styles.main}>{children}</main>
+        <main className={styles.main}>
+         <Main />      
+        </main>
       </div>
+      
       {/*  absolute elements */}
       <NProgress open={nprogress} />
       <Toaster position="top-right" />
