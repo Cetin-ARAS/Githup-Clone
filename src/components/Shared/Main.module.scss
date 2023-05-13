@@ -1,2 +1,150 @@
 @import '../../styles/variables.scss';
 
+<<<<<<< HEAD
+.container {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.mainContainer {
+  height: 10rem;
+  background-color: red;
+}
+
+.footerContainer {
+  height: 10rem;
+  background-color: yellow;
+}
+
+.asideContainer {
+  display: flex;
+}
+.leftAside {
+  background-color: black;
+  width: 70rem;
+  height: calc(100vh - 6rem);
+  padding: 1rem;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: $bg-color-2;
+  border: 1px solid grey;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0.75rem;
+}
+.headerTopLeft {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+.headerTopRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+.box {
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  background-color: #30363d;
+  padding: 0.5rem;
+}
+.box:hover {
+  border: 1px solid #E6EDE4;
+}
+
+.cross {
+  fill: grey;
+}
+.cross:hover {
+  fill: white;
+}
+
+.headerBottom {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+  margin: 2rem 1rem;
+}
+
+.headerBottomLeft {
+  display: flex;
+  gap: 1.5rem;
+}
+.headerBottomRight {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.rightAside {
+  background-color: black;
+  width: calc(100vw - 97.5rem);
+  height: calc(100vh - 6rem);
+  padding: 1rem;
+}
+
+.pipe {
+  fill: $bg-color-2;
+  color: red;
+  background-color: $bg-color-2;
+}
+
+.cardContainer {
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: grey;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+}
+.icon {
+  border-radius: 50%;
+}
+
+.cardSubContainer {
+  margin-top: 1rem;
+  background-color: $bg-color-2;
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.cardSubContainerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardSubContainerTopLeft {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.iconSub {
+    border-radius: 50%;
+}
+.cardSubContainerTopRight{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #30363d;
+    gap: 1rem;
+    margin-right: 1rem;
+    border: 1px solid grey;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    fill: grey;
+}
+=======
+>>>>>>> 9505d8181554ac025ad3a7366a63c291a58eb323

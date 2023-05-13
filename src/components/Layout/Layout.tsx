@@ -68,6 +68,7 @@ export default function Layout({ header, footer, children }: Props) {
         </main>
       </div>
       
+      
       {/*  absolute elements */}
       <NProgress open={nprogress} />
       <Toaster position="top-right" />
