@@ -63,7 +63,6 @@ export default function Layout({ header, footer, children }: Props) {
         </Col>
       </Row> */}
       <div className={styles.container}>
-        <aside className={styles.aside}><Aside /></aside>
         <main className={styles.main}>
          <Main />      
         </main>
