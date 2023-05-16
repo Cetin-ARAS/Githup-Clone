@@ -1,4 +1,51 @@
 @import '../../styles/variables.scss';
 
+.container {
+  width: 132.2rem;
+  margin: 0 27.9rem 0 19.5rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  width: 68.4rem;
+}
 
+.title {
+  font-size: 2.4rem;
+  font-weight: 70rem;
+  width: 14.5rem;
+  height: 3.2rem;
+  margin-top: 3rem;
+  margin-right: 8.2rem;
+}
 
+.navigationList {
+  display: flex;
+}
+
+.navigationItem {
+  margin-right: 2rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.leftContainer {
+  margin-top: 3.3rem;
+}
+.rightContainer {
+  display: flex;
+  margin-top: 3.4rem;
+  margin-left: 24rem;
+}
+
+.button {
+  background-color: #23a6f0;
+  width: 137px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+}

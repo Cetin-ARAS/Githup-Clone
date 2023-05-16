@@ -3,7 +3,6 @@ import { Toaster } from 'react-hot-toast';
 import { Router, useRouter } from 'next/router';
 import NProgress from '../NProgress/NProgress';
 import Header from '../Shared/Header';
-import Aside from '../Shared/Aside';
 import styles from './Layout.module.scss';
 import Main from '../Shared/Main';
 
@@ -63,6 +62,9 @@ export default function Layout({ header, footer, children }: Props) {
         </Col>
       </Row> */}
       <div className={styles.container}>
+        <header className={styles.header}> 
+        <Header />
+        </header>
         <main className={styles.main}>
          <Main />      
         </main>
