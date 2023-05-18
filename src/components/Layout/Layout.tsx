@@ -54,27 +54,15 @@ export default function Layout({ header, footer, children }: Props) {
 
   return (
     <>
-      <Header />
-      {/* <Row col={{ lg: 12, md: 12, sm: 12 }}> !!! diğer yöntem !!!
-        <Col span={{ lg: 4 }}>aside</Col>
-        <Col span={{ lg: 8 }}>
-          <main>{children}</main>
-        </Col>
-      </Row> */}
       <div className={styles.container}>
-        <header className={styles.header}> 
-        <Header />
-        </header>
-        <main className={styles.main}>
-         <Main />      
-        </main>
+        <Header className={styles.header} />
+        <Main className={styles.main} />
+        {/* {children} */}
+        {/*  absolute elements */}
+        <NProgress open={nprogress} />
+        <Toaster position="top-right" />
+        {/*  absolute elements */}
       </div>
-      
-      
-      {/*  absolute elements */}
-      <NProgress open={nprogress} />
-      <Toaster position="top-right" />
-      {/*  absolute elements */}
     </>
   );
 }

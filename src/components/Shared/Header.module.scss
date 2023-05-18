@@ -1,13 +1,14 @@
 @import '../../styles/variables.scss';
 
 .container {
-  width: 132.2rem;
-  margin: 0 27.9rem 0 19.5rem;
+  width: 144rem;
+  background-color: #184c99;
 }
 .row {
   display: flex;
   align-items: center;
   width: 68.4rem;
+  padding: 2rem;
 }
 
 .title {
@@ -32,13 +33,13 @@
   align-items: center;
 }
 
-.leftContainer {
+.leftNav {
   margin-top: 3.3rem;
 }
-.rightContainer {
+.rightNav {
   display: flex;
-  margin-top: 3.4rem;
-  margin-left: 24rem;
+  // margin-top: 3.4rem;
+  margin-left: 32rem;
 }
 
 .button {

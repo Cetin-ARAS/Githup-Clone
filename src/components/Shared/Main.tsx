@@ -2,12 +2,7 @@ import React from 'react';
 import styles from './Main.module.scss';
 
 const Main = () => {
-  return (
-    <div>
-      llllllllllllllllllllllllllllllllllllllllllllllll
-    </div>
- 
-  );
+  return <section className={styles.container}></section>;
 };
 
 export default Main;

@@ -8,7 +8,7 @@ export default function Header() {
         <div className={styles.row}>
           <h3 className={styles.title}>BrandName</h3>
           <nav className={styles.navigation}>
-            <div className={styles.leftContainer}>
+            <div className={styles.leftNav}>
               <ul className={styles.navigationList}>
                 <li className={styles.navigationItem}>
                   <a href="#" className={styles.navigationLink}>
@@ -32,8 +32,8 @@ export default function Header() {
                 </li>
               </ul>
             </div>
-            <div className={styles.rightContainer}>
-              <ul className={styles.rightContainer}>
+            <div className={styles.rightNav}>
+              <ul className={styles.rightNav}>
                 <li className={styles.navigationItem}>
                   <a href="#" className={styles.navigationLink}>
                     Login
