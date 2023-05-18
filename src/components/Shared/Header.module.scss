@@ -1,14 +1,23 @@
 @import '../../styles/variables.scss';
 
-.container {
+.header {
   width: 144rem;
+  height: 9.5rem;
   background-color: #184c99;
 }
+
+.container {
+  height: 9.5rem;
+  margin: 0 5.9rem;
+  background-color: yellow;
+}
 .row {
+  height: 9.5rem;
   display: flex;
   align-items: center;
-  width: 68.4rem;
-  padding: 2rem;
+  margin: 0 17rem;
+  gap: 5rem;
+  background-color: palevioletred;
 }
 
 .title {
@@ -16,8 +25,6 @@
   font-weight: 70rem;
   width: 14.5rem;
   height: 3.2rem;
-  margin-top: 3rem;
-  margin-right: 8.2rem;
 }
 
 .navigationList {
@@ -30,16 +37,16 @@
 
 .navigation {
   display: flex;
-  align-items: center;
+  gap: 30rem;
 }
 
 .leftNav {
-  margin-top: 3.3rem;
+  // margin-top: 3.3rem;
 }
 .rightNav {
   display: flex;
   // margin-top: 3.4rem;
-  margin-left: 32rem;
+  // margin-left: 32rem;
 }
 
 .button {
