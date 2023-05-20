@@ -1,4 +1,38 @@
-.container {
-  height: 59.2rem;
+.main {
+  height: 475.2rem;
+  width: 144rem;
   background-color: blue;
+}
+.section {
+  height: 68.2rem;
+  width: 144rem;
+  display: flex;
+  gap: 3.5rem;
+}
+.asideLeft {
+  background-color: red;
+  height: 466px;
+  width: 573px;
+  margin-left: 13.2rem;
+  // display: block;
+  margin-top: 10.8rem;
+  // gap: 3rem;
+}
+.bigText {
+  height: 5.73rem;
+  width: 24rem;
+  font-size: xx-large;
+  // margin-top: 16.2rem;
+  margin-bottom: 0rem;
+}
+.paragraph {
+  background-color: antiquewhite;
+  // margin-top: 43.2rem;
+  margin-bottom: 19rem;
+}
+.asideRight {
+  background-color: gray;
+  height: 682px;
+  width: 704px;
+  margin-top: 10.8rem;
 }
