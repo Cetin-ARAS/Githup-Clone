@@ -1,7 +1,7 @@
 .main {
   height: 475.2rem;
   width: 144rem;
-  background-color: blue;
+  background-color: #184c99;
 }
 .section {
   height: 68.2rem;
@@ -10,26 +10,43 @@
   gap: 3.5rem;
 }
 .asideLeft {
-  background-color: red;
+  background-color: #184c99;
   height: 466px;
   width: 573px;
   margin-left: 13.2rem;
-  // display: block;
   margin-top: 10.8rem;
-  // gap: 3rem;
 }
-.bigText {
+.section .asideLeft h6 {
+  color: #23a6f0;
+}
+
+.section .asideLeft h1 {
   height: 5.73rem;
   width: 24rem;
   font-size: xx-large;
-  // margin-top: 16.2rem;
-  margin-bottom: 0rem;
+  margin-top: 5.4rem;
 }
-.paragraph {
-  background-color: antiquewhite;
-  // margin-top: 43.2rem;
-  margin-bottom: 19rem;
+
+.section .asideLeft p {
+  margin-top: 8.4rem;
 }
+
+.btn {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+.btn .leftBtn {
+  background-color: #23a6f0;
+  padding: 1.5rem 4rem;
+}
+
+.btn .rightBtn {
+  color: #23a6f0;
+  border: 1px solid #23a6f0;
+  padding: 1.5rem 4rem;
+}
+
 .asideRight {
   background-color: gray;
   height: 682px;
