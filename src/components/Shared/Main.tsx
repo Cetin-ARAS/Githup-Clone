@@ -18,7 +18,11 @@ const Main = () => {
             <button className={styles.rightBtn}>Learn More</button>
           </div>
         </aside>
-        <aside className={styles.asideRight}></aside>
+        <aside className={styles.asideRight}>
+          <div>
+            <img src="./Resim.png" alt="" />
+          </div>
+        </aside>
       </section>
     </main>
   );
